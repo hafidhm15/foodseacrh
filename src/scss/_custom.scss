@@ -1,0 +1,50 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(234, 185, 202)
+}
+
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: .6rem;
+}
+
+.d-flow-root {
+    display: flow-root;
+}
+
+.text-filter {
+    font-size: 0.7rem;
+    color: #f29a96;
+
+    &:hover {
+        color: #e96d67;
+        text-decoration: none;
+    }
+}
+
+// Custom Buttom styles
+.btn {
+    font-family: "Open Sans", sans-serif;
+    padding: 0.375rem 1rem;
+    font-size: 0.8rem;
+}
+
+// Custom Badge styles
+.badge {
+    padding: 0.5rem 0.65rem;
+}
+
+// Custom Color styles
+.btn-dark,
+.badge-dark {
+    background-color: $black;
+}
+
